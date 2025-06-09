@@ -1,0 +1,28 @@
+{
+  "name": "node-tutorial",
+  "version": "1.0.0",
+  "description": "\"its for learning node.js only\"",
+  "keywords": [
+    "test",
+    "run",
+    "console"
+  ],
+  "homepage": "https://github.com/coddingWorker-12/node-tutorial-#readme",
+  "bugs": {
+    "url": "https://github.com/coddingWorker-12/node-tutorial-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coddingWorker-12/node-tutorial-.git"
+  },
+  "license": "ISC",
+  "author": "Ashok poonia",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "run,consolo.log,test"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}

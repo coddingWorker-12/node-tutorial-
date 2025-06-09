@@ -1,6 +1,8 @@
-const http = require('http');
+const chalk = require('chalk');
 
-http.createServer((req,res)=>{
-  res.write("<h1>hello,ites my first browser server test</h1>");
-  res.end();
-}).listen(4500);
+const color = () => {
+  console.log(chalk.blue.bgRed.bold('Hello world!'));
+  console.log(chalk.blue.bgRed.bold('can its work properly'));
+};
+
+color();
