@@ -1,6 +1,6 @@
-const app = require('./app')
+const http = require('http');
 
-
-let a = 10;
-let b = 20;
-app.z(10,12);
+http.createServer((req,res)=>{
+  res.write("<h1>hello,ites my first browser server test</h1>");
+  res.end();
+}).listen(4500);
