@@ -1,8 +1,8 @@
-const chalk = require('chalk');
+const http = require('http');
+const data = require('./app.js');
 
-const color = () => {
-  console.log(chalk.blue.bgRed.bold('Hello world!'));
-  console.log(chalk.blue.bgRed.bold('can its work properly'));
-};
-
-color();
+http.createServer((req,res)=>{
+    res.writeHead(200,{'content-type':'application/json'});
+    res.write(JSON.stringify(data));
+    res.end();
+}).listen(5000);

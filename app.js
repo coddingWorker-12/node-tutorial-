@@ -1,8 +1,2 @@
-module.exports = {
-    x:"20",
-    y:"15",
-    z:function(a,b){
-        console.log(a+b)
-    }
-
-}
+ const data = {name:'ashok poonia',gmail:'ashok@gmail.com'};
+ module.exports = data;
