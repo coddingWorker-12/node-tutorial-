@@ -23,6 +23,8 @@
     "test": "run,consolo.log,test"
   },
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
   }
 }
